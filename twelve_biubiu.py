@@ -48,6 +48,7 @@ def engine_stop():
     time.sleep(2)    
     
 def init():
+    print("Now time is 2082-1-28 23:59:50")
     set_engine_number_mask(ENGINE_ALL)
     set_funeral_level(FUNERAL_FULL)
     return engine_check_init()
@@ -67,14 +68,6 @@ if __name__ == '__main__':
     main()
     final()
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
