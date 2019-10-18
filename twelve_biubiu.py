@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 #! /usr/bin/env python 
 #coding: utf-8
 # env "planet_engine"
