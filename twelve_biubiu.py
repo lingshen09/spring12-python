@@ -23,12 +23,12 @@ def set_funeral_level(level):
 
 def engine_check_init():
     for i in range(0,110,10):
-        print("engine check state: %d %%" % i)
-        time.sleep(1)
+        print("\r","engine check state: %d %%" % i , end="", flush=True)
+        time.sleep(0.5)
     return 1
 
 def set_curve(curve_name):
-    print("set curve to：%s" % curve_name)
+    print("\r set curve to：%s" % curve_name)
 
 def engine_ensure_shutdown():
     print("engine shutdown: OK")
